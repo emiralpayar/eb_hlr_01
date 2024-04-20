@@ -7,7 +7,7 @@
 #define encodPinA1      2                       // Quadrature encoder A pin
 #define encodPinB1      8                       // Quadrature encoder B pin
 #define M1              9                       // PWM outputs to L298N H-Bridge motor driver module
-#define M2              10
+#define M2              9
 
 double kp =1, ki =20 , kd =0;             // modify for optimal performance
 double input = 0, output = 0, setpoint = 0;
