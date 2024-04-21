@@ -53,7 +53,7 @@ void ROBOTHardwareInterface::read() {
     uint8_t rbuff[1];
     int x;
 
-    left_motor.readBytes(rbuff,1);
+    //left_motor.readBytes(rbuff,1);
     x=(int8_t)rbuff[0];
     left_motor_pos+=angles::from_degrees((double)x);
     joint_position_[0]=left_motor_pos;
