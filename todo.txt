@@ -1,3 +1,0 @@
-mapping.config laserscan->scan
-map serverdan map kaydedilecek, layout.pgm ile değiştirilecek
-rplidar package eklenecek
