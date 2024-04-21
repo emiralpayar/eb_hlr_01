@@ -83,7 +83,7 @@ void ROBOTHardwareInterface::write(ros::Duration elapsed_time) {
 
     if(left_prev_cmd!=velocity)
     {
-	    result = left_motor.writeData(wbuff,2);
+	    //result = left_motor.writeData(wbuff,2);
 	    //ROS_INFO("Writen successfully result=%d", result);
 	    left_prev_cmd=velocity;
     }

@@ -43,7 +43,7 @@ class ROBOTHardwareInterface : public hardware_interface::RobotHW
 	
 	double left_motor_pos=0,right_motor_pos=0;
         int left_prev_cmd=0, right_prev_cmd=0;
-       	i2c_ros::I2C left_motor= i2c_ros::I2C(0, 0x08);
+       	//i2c_ros::I2C left_motor= i2c_ros::I2C(0, 0x08);
         i2c_ros::I2C right_motor= i2c_ros::I2C(1, 0x09);
 
 
