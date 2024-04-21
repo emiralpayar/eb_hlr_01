@@ -137,7 +137,7 @@ ROBOTHardwareInterface::~ROBOTHardwareInterface() {
 }
 
 void ROBOTHardwareInterface::init() {
-    for(int i=0; i<1; i++) { // Adjusted for one motor (right motor)
+    for(int i=0; i<2; i++) { // Adjusted for one motor (right motor)
         // Create joint state interface
         hardware_interface::JointStateHandle jointStateHandle(joint_name_[i], &joint_position_[i], &joint_velocity_[i], &joint_effort_[i]);
         joint_state_interface_.registerHandle(jointStateHandle);
