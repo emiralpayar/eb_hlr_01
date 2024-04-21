@@ -15,7 +15,7 @@
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
   </node>
   
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mobile_robot_autonomous_navigation)/config/rviz_config.rviz"/>
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mobile_robot_autonomous_navigation)/config/rviz_config.rviz"/> -->
   
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
         args="
